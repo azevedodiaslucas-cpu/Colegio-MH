@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colégio Estadual Professor Anísio Teixeira</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================================
+     CABEÇALHO / MENU
+     Troque "Colégio Estadual Maria Helena Teixeira Luciano" e a sigla
+     do brasão pelo nome real da escola.
+========================================================= -->
+<header class="topo">
+  <div class="nav-wrap">
+    <a href="#home" class="marca">
+      <div class="brasao">AT</div>
+      <div class="marca-texto">
+        <strong>Col. Est. Colégio Estadual Maria Helena Teixeira Luciano</strong>
+        <span>Escola Pública Estadual</span>
+      </div>
+    </a>
+    <button class="hamburguer" id="btnMenu" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPrincipal">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" id="menuPrincipal">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre a Escola</a></li>
+        <li><a href="#ensino">Ensino</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- =========================================================
+     HOME
+========================================================= -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="slogan">"Educação pública, presente e futuro para todos"</p>
+      <h1>Colégio Estadual Professora Maria Helena</h1>
+      <p class="lead">Uma escola da rede estadual comprometida com um ensino público de qualidade, do 6º ano do Fundamental ao Ensino Médio, formando estudantes para a vida e para o mundo do trabalho.</p>
+      <div class="hero-cta">
+        <a href="#ensino" class="btn">Conheça os cursos</a>
+        <a href="#contato" class="btn outline">Fale com a escola</a>
+      </div>
+    </div>
+    <div class="hero-selo">
+      <div class="numero">35</div>
+      <div class="legenda">anos formando estudantes da nossa comunidade</div>
+      <hr>
+      <div class="numero" style="font-size:1.8rem;">3 turnos</div>
+      <div class="legenda">Manhã, tarde e noite</div>
+      <p class="hero-foto-nota"><img src="IMG_1412.jpeg" alt=""></p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SOBRE A ESCOLA
+========================================================= -->
+<section id="sobre" class="sobre">
+  <div class="container">
+    <p class="eyebrow">Sobre a escola</p>
+    <div class="sobre-grid">
+      <div>
+        <h2>Nossa história</h2>
+        <p>O Colégio Estadual Professora Maria Helena Teixeira Luciano está localizado no Balneário Shangri-Lá e é mantido pelo Governo do Estado do Paraná. Documentos do Conselho Estadual de Educação registram a instituição desde pelo menos a década de 1990, com o Ensino Fundamental autorizado a funcionar em 1999.</p>
+        <p><strong>Missão:</strong> garantir educação pública, inclusiva e de qualidade, formando cidadãos críticos, preparados para o mercado de trabalho e para a continuidade dos estudos.</p>
+        <p><strong>Valores:</strong></p>
+        <div class="valores">
+          <div class="valor-card"><strong>Equidade</strong>Oportunidade igual para todos os estudantes.</div>
+          <div class="valor-card"><strong>Respeito</strong>Convivência ética e acolhedora.</div>
+          <div class="valor-card"><strong>Excelência</strong>Compromisso com a qualidade do ensino.</div>
+          <div class="valor-card"><strong>Comunidade</strong>Escola integrada ao seu bairro.</div>
+        </div>
+      </div>
+      <div>
+        <div class="sobre-foto"><img src="unnamed.webp" alt=""></div>
+        <p><strong>Diferenciais da escola:</strong></p>
+        <ul class="diferenciais">
+          <li>Curso Técnico em Desenvolvimento de Sistemas — integrado ao Ensino Médio, na área de Informação e Comunicação. O curso teve seu reconhecimento aprovado pelo Conselho Estadual de Educação em 2025.</li>
+          <li>Educação a distância — existe credenciamento para oferta de Educação a Distância e modalidades de EJA, conforme atos publicados pelo Governo do Paraná.</li>
+          <li>Formação de Docentes — o colégio também recebeu autorização para oferecer o curso de Formação de Docentes da Educação Infantil e dos Anos Iniciais do Ensino Fundamental, na modalidade Normal.</li>
+          <li>Curso Técnico em Administração — integrado ao Ensino Médio, voltado para a área de Gestão e Negócios.</li>
+          <li>Projetos ligados à comunidade e à história da escola — um projeto chamado “Memórias” envolveu estudantes em pesquisas de campo, entrevistas com moradores, produção de vídeos e fotografias sobre a relação entre a escola e a comunidade. O projeto chegou a ser finalista do Prêmio Microsoft Educadores Inovadores.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     ENSINO / CURSOS
+========================================================= -->
+<section id="ensino" class="ensino">
+  <div class="container">
+    <p class="eyebrow">Ensino / Cursos</p>
+    <h2>Etapas oferecidas</h2>
+    <p>Atendemos estudantes do Ensino Fundamental (anos finais) ao Ensino Médio, com a opção de cursar o Ensino Médio em paralelo ao curso Técnico em Análise e Desenvolvimento de Sistemas (ADS).</p>
+    <div class="trilhas">
+      <div class="trilha">
+        <span class="tag">Fundamental 2</span>
+        <h3>6º ao 9º ano</h3>
+        <ul>
+          <li>Base Nacional Comum Curricular (BNCC)</li>
+          <li>Acompanhamento pedagógico individualizado</li>
+          <li>Projetos interdisciplinares</li>
+        </ul>
+        <div class="turno">Turnos: manhã e tarde</div>
+      </div>
+      <div class="trilha">
+        <span class="tag">Ensino Médio</span>
+        <h3>Ensino Médio convencional</h3>
+        <ul>
+          <li>Itinerários formativos da Reforma do Ensino Médio</li>
+          <li>Preparação para vestibular e ENEM</li>
+          <li>Clubes de estudo e monitoria</li>
+        </ul>
+        <div class="turno">Turnos: manhã e noite</div>
+      </div>
+      <div class="trilha destaque">
+        <span class="tag">Médio + Técnico</span>
+        <h3>Ensino Médio paralelo ao Técnico em ADS</h3>
+        <ul>
+          <li>Formação técnica em Análise e Desenvolvimento de Sistemas</li>
+          <li>Lógica de programação, banco de dados e desenvolvimento web</li>
+          <li>Estágio supervisionado e projetos práticos</li>
+        </ul>
+        <div class="turno">Turnos: manhã (regular) e tarde (técnico)</div>
+      </div>
+    </div>
+
+    <div class="metodologia">
+      <div><strong>Ensino ativo</strong>Aulas com metodologias ativas e projetos em grupo.</div>
+      <div><strong>Avaliação contínua</strong>Acompanhamento processual, não só provas.</div>
+      <div><strong>Tecnologia</strong>Uso de laboratório e ferramentas digitais em sala.</div>
+      <div><strong>Apoio ao estudante</strong>Orientação educacional e psicopedagógica.</div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     NOTÍCIAS E EVENTOS
+========================================================= -->
+<section id="noticias" class="mural">
+  <div class="container">
+    <div class="cabecalho">
+      <p class="eyebrow">Mural da escola</p>
+      <h2>Notícias e eventos</h2>
+      <p>Fique por dentro do que está acontecendo no colégio. Duplique os cartões abaixo para adicionar mais notícias.</p>
+    </div>
+    <div class="quadro">
+      <article class="post-it">
+        <span class="pin"></span>
+        <span class="data">[DD/MM/AAAA]</span>
+        <h3>Feira de Ciências 2026</h3>
+        <p>Estudantes do Fundamental 2 e Ensino Médio apresentam projetos científicos desenvolvidos ao longo do semestre.</p>
+        <span class="categoria">Evento</span>
+      </article>
+      <article class="post-it">
+        <span class="pin"></span>
+        <span class="data">[DD/MM/AAAA]</span>
+        <h3>Inscrições abertas para o Técnico em ADS</h3>
+        <p>Já estão abertas as inscrições para novas turmas do Ensino Médio integrado ao curso Técnico em ADS.</p>
+        <span class="categoria">Notícia</span>
+      </article>
+      <article class="post-it">
+        <span class="pin"></span>
+        <span class="data">[DD/MM/AAAA]</span>
+        <h3>Reunião de pais e responsáveis</h3>
+        <p>Encontro pedagógico para apresentação dos resultados do bimestre e orientações gerais.</p>
+        <span class="categoria">Aviso</span>
+      </article>
+      <article class="post-it">
+        <span class="pin"></span>
+        <span class="data">[DD/MM/AAAA]</span>
+        <h3>Time de robótica conquista 1º lugar</h3>
+        <p>Equipe do colégio se destaca em olimpíada regional de robótica com projeto de automação escolar.</p>
+        <span class="categoria">Conquista</span>
+      </article>
+      <article class="post-it">
+        <span class="pin"></span>
+        <span class="data">[DD/MM/AAAA]</span>
+        <h3>Semana Cultural</h3>
+        <p>Apresentações artísticas, gastronomia e exposições preparadas pelas turmas de todos os turnos.</p>
+        <span class="categoria">Evento</span>
+      </article>
+      <article class="post-it">
+        <span class="pin"></span>
+        <span class="data">[DD/MM/AAAA]</span>
+        <h3>Simulado ENEM</h3>
+        <p>Aplicação de simulado gratuito para estudantes do 3º ano do Ensino Médio.</p>
+        <span class="categoria">Aviso</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FAQ
+========================================================= -->
+<section id="faq" class="faq">
+  <div class="container">
+    <p class="eyebrow">Dúvidas frequentes</p>
+    <h2>FAQ</h2>
+    <div class="faq-lista">
+      <details open>
+        <summary>Como faço a matrícula?</summary>
+        <p>As matrículas são feitas presencialmente na secretaria da escola ou pelo sistema da Secretaria de Educação do estado, mediante apresentação de documentos do estudante e do responsável.</p>
+      </details>
+      <details>
+        <summary>Quais documentos são necessários para matrícula?</summary>
+        <p>RG e CPF do estudante e do responsável, comprovante de residência, histórico escolar (ou declaração de transferência) e comprovante de vacinação.</p>
+      </details>
+      <details>
+        <summary>É possível cursar o Ensino Médio junto com o Técnico em ADS?</summary>
+        <p>Sim. O estudante cursa o Ensino Médio regular em um turno e as disciplinas técnicas do curso de Análise e Desenvolvimento de Sistemas no turno complementar.</p>
+      </details>
+      <details>
+        <summary>A escola oferece merenda escolar?</summary>
+        <p>Sim, a escola oferece merenda gratuita em todos os turnos de funcionamento, seguindo o cardápio do Programa Nacional de Alimentação Escolar.</p>
+      </details>
+      <details>
+        <summary>Como entro em contato em caso de dúvidas?</summary>
+        <p>Você pode entrar em contato pelo telefone, e-mail ou WhatsApp da secretaria, disponíveis na seção de Contato desta página.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CONTATO
+========================================================= -->
+<section id="contato" class="contato">
+  <div class="container">
+    <p class="eyebrow">Contato</p>
+    <h2>Fale com a escola</h2>
+    <div class="contato-grid">
+      <div>
+        <ul class="info-lista">
+          <li>
+            <span class="icone">📍</span>
+            <div>
+              <strong>Endereço</strong>
+              <span>[Rua/Avenida, número, bairro — Cidade/UF, CEP]</span>
+            </div>
+          </li>
+          <li>
+            <span class="icone">📞</span>
+            <div>
+              <strong>Telefone</strong>
+              <a href="tel:+5500000000000">(00) 0000-0000</a>
+            </div>
+          </li>
+          <li>
+            <span class="icone">✉️</span>
+            <div>
+              <strong>E-mail</strong>
+              <a href="mailto:contato@escola.edu.br">contato@escola.edu.br</a>
+            </div>
+          </li>
+          <li>
+            <span class="icone">🕘</span>
+            <div>
+              <strong>Horário de atendimento</strong>
+              <span>Segunda a sexta, das 7h às 22h</span>
+            </div>
+          </li>
+        </ul>
+        <div class="redes">
+          <a href="#" aria-label="Instagram da escola">IG</a>
+          <a href="#" aria-label="Facebook da escola">FB</a>
+          <a href="#" aria-label="YouTube da escola">YT</a>
+        </div>
+      </div>
+      <div class="mapa">
+        <!-- Troque o "q=" abaixo pelo endereço real da escola -->
+        <iframe
+          src="https://www.google.com/maps?q=Escola+Estadual&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa de localização da escola">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p><strong>Colégio Estadual Professor Anísio Teixeira</strong> — Escola Pública Estadual</p>
+    <p>© 2026 — Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- =========================================================
+     BOTÃO FLUTUANTE DE WHATSAPP
+     Troque o número no href (formato: 55DDDNÚMERO, só dígitos)
+========================================================= -->
+<a class="whatsapp-flutuante"
+   href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20secretaria%20da%20escola"
+   target="_blank" rel="noopener"
+   aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor">
+    <path d="M16 0C7.2 0 0 7.2 0 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.1C10.6 31.3 13.3 32 16 32c8.8 0 16-7.2 16-16S24.8 0 16 0zm0 29.3c-2.4 0-4.7-.6-6.8-1.8l-.5-.3-5 1.3 1.3-4.9-.3-.5C3.3 20.9 2.7 18.5 2.7 16 2.7 8.7 8.7 2.7 16 2.7S29.3 8.7 29.3 16 23.3 29.3 16 29.3zm7.4-9.1c-.4-.2-2.4-1.2-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.3 1.5-.2.3-.5.3-.9.1-.4-.2-1.7-.6-3.2-2-1.2-1.1-2-2.4-2.2-2.8-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.4-.7.1-.3.1-.5 0-.7-.1-.2-.9-2.2-1.3-3-.3-.8-.7-.7-.9-.7h-.8c-.3 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.1 0 1.8 1.3 3.6 1.5 3.9.2.3 2.6 4 6.4 5.5.9.4 1.6.6 2.1.7.9.3 1.7.2 2.4.1.7-.1 2.4-1 2.7-1.9.3-.9.3-1.7.2-1.9-.1-.2-.3-.3-.7-.5z"/>
+  </svg>
+</a>
+
+<script>
+  // Menu mobile
+  const btnMenu = document.getElementById('btnMenu');
+  const menuPrincipal = document.getElementById('menuPrincipal');
+  btnMenu.addEventListener('click', () => {
+    const aberto = menuPrincipal.classList.toggle('aberto');
+    btnMenu.setAttribute('aria-expanded', aberto);
+  });
+  // Fecha o menu ao clicar em um link (mobile)
+  menuPrincipal.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      menuPrincipal.classList.remove('aberto');
+      btnMenu.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+</body>
+</html>
